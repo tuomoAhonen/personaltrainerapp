@@ -1,0 +1,23 @@
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-alpine-dark.css';
+
+.ag-theme-alpine-dark .ag-header {
+  background-color: #000000;
+  justify-content: center;
+}
+
+.ag-header-cell-text {
+  flex: 1;
+}
+
+.ag-header-cell {
+  border-right: 1px solid;
+}
+
+.tab:hover {
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}

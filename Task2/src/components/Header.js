@@ -5,7 +5,7 @@ export default function Header() {
             <AppBar position="static" 
                 style={{ 
                     marginBottom: 25, 
-                    background: 'linear-gradient(45deg, #181D1F 30%, #222628 90%)',
+                    background: 'linear-gradient(45deg, #000000 1%, #181D1F 50%, #222628 100%)',
                     boxShadow: '0 3px 5px 2px #000000',
                 }}>
                 <Toolbar>

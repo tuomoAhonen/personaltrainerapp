@@ -34,15 +34,17 @@ export default function AddCustomer(props) {
     return (
         <React.Fragment>
             <Button 
+                className="hover"
                 onClick={handleClickOpen}
-                size="small"
+                size="medium"
                 variant="outlined" 
                 style={{
-                    background: 'linear-gradient(45deg, #181D1F 30%, #222628 90%)',
+                    background: 'linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%)',
                     boxShadow: '0 3px 5px 2px #000000',
-                    marginTop: 10,
                     marginBottom: 10,
                     display: 'flex',
+                    color: '#ffffff',
+                    border: 0,
                 }}
             >
                 Add new customer

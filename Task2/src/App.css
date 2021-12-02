@@ -1,21 +1,20 @@
 @import 'ag-grid-community/dist/styles/ag-grid.css';
 @import 'ag-grid-community/dist/styles/ag-theme-alpine-dark.css';
 
-.ag-theme-alpine-dark .ag-header {
-  background-color: #000000;
+.ag-theme-alpine-dark .ag-header-cell {
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
   justify-content: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #000000;
 }
 
 .ag-header-cell-text {
   flex: 1;
 }
 
-.ag-header-cell {
-  border-right: 1px solid;
-}
-
-.tab:hover {
-  color: #ffffff;
+.hover:hover {
+  color: #1978CE !important;
 }
 
 .App {

@@ -269,6 +269,7 @@ export default function Customers() {
 
     return(
         <React.Fragment>
+            <AddCustomer addCustomer={addCustomer}/>
             <div
                 className='ag-theme-alpine-dark'
                 style={{ 
@@ -287,7 +288,6 @@ export default function Customers() {
                 suppressCellSelection={true}
             />
             </div>
-            <AddCustomer addCustomer={addCustomer}/>
             <Snackbar
                 open={open}
                 autoHideDuration={3000}

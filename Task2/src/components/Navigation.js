@@ -29,29 +29,31 @@ export default function Navigation() {
                     indicatorColor="primary"
                 >
                 <Tab 
-                    className="tab"
+                    className="hover"
                     label="Customers"
                     value="customers" 
                     icon={<Group/>}
                     iconPosition="start"
                     style={{ 
-                        background: 'linear-gradient(45deg, #181D1F 30%, #222628 90%)',
+                        background: 'linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%)',
                         boxShadow: '0 3px 5px 2px #000000',
                         marginBottom: 10,
                         marginRight: 5,
+                        color: '#ffffff',
                     }}         
                 />
                 <Tab 
-                    className="tab"
+                    className="hover"
                     label="Trainings" 
                     value="trainings"
                     icon={<FitnessCenter/>}
                     iconPosition="start"
                     style={{ 
-                        background: 'linear-gradient(45deg, #181D1F 30%, #222628 90%)',
+                        background: 'linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%)',
                         boxShadow: '0 3px 5px 2px #000000',
                         marginBottom: 10,
                         marginRight: 5,
+                        color: '#ffffff',
                     }}
                 />
                 </TabList>

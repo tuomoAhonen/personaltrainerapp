@@ -1,0 +1,59 @@
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-alpine-dark.css';
+
+.ag-theme-alpine-dark .ag-header-cell {
+  justify-content: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #000000;
+}
+
+.ag-header-cell-text {
+  flex: 1;
+  text-align: center;
+}
+
+.ag-header {
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
+}
+
+.ag-cell {
+  text-align: center;
+}
+
+.ag-paging-panel {
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
+}
+
+.hover:hover {
+  color: #ffffff;
+}
+
+.inline {
+  display: inline;
+}
+
+button {
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
+  box-shadow: 0 3px 5px 0px #000000;
+  border: 0;
+}
+
+.fc {
+  padding: 10px;
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
+  box-shadow: 0 3px 5px 0px #000000;
+  color: #ffffff;
+}
+
+.recharts-responsive-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(45deg, #000000 10%, #181D1F 90%, #222628 100%);
+  box-shadow: 0 3px 5px 0px #000000;
+  color: #ffffff;
+}
+
+/*.App {
+  text-align: center;
+}*/

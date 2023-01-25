@@ -1,3 +1,10 @@
+# Haaga-Helia Front-End course
+
+The idea of the app is from the Front-End Course of Haaga-Helia. <br /> 
+I have not contributed to the idea. <br />
+Just pure focusing on programming, React and learning how to use components. <br />
+CSS-styling should be re-written/structure to learn React's styling and to enhance performance.
+
 # Was running @ Heroku, project was made in 2021
 
 URL: <s> https://murmuring-sea-37641.herokuapp.com/ </s>

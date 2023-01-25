@@ -1,6 +1,6 @@
 # Was running @ Heroku, project was made in 2021
 
-URL: https://murmuring-sea-37641.herokuapp.com/
+URL: <s> https://murmuring-sea-37641.herokuapp.com/ </s>
 
 # Getting Started with Create React App
 
